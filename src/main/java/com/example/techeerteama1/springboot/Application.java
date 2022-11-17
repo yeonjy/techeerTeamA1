@@ -1,13 +1,11 @@
-package com.example.techeerteama1;
+package com.example.techeerteama1.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TecheerTeamA1Application {
-
+public class Application {
     public static void main(String[] args) {
-        SpringApplication.run(TecheerTeamA1Application.class, args);
+        SpringApplication.run(Application.class, args);
     }
-
 }
